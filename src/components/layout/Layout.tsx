@@ -13,7 +13,7 @@ const Layout = ({ children }: LayoutProps) => {
       <Sidebar />
       <div className="flex-1">
         <Header />
-        <main className="p-4 md:p-6">
+        <main className="p-6">
           {children}
         </main>
       </div>
